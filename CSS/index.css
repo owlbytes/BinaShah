@@ -1,0 +1,35 @@
+
+body {
+background-image:url('https://news.uns.purdue.edu/images/+2009/horse-sculpture.jpg');
+background-repeat:no-repeat;
+/*background-size:contain;
+*//*background-position:center;*/
+}
+
+h1{
+  color: #606060;
+  text-align: center;
+}
+
+h3{
+  color: #3C3C3C;
+  text-align: center;
+  font-style:italic;
+}
+
+#center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#center a{
+  margin: 2%;
+  text-decoration: none;
+  color: rgba(163, 190, 234, 1);
+}
+
+#center a:hover{
+  color: rgba(163, 190, 234, 0.5);
+}
