@@ -65,15 +65,28 @@ ul{
 .rb-grid li:nth-child(2) { 
   background: url("http://i.imgur.com/PYdu6W7.jpg")
    }
-.rb-grid li:nth-child(3) { background: #996699; }
-.rb-grid li:nth-child(4) { background: #C24747; }
-.rb-grid li:nth-child(5) { background: #e2674a; }
-.rb-grid li:nth-child(6) { background: #FFCC66; }
+.rb-grid li:nth-child(3) { 
+  background: url("http://i.imgur.com/lOj5wqd.jpg")
+   }
+.rb-grid li:nth-child(4) { 
+  background: url("http://i.imgur.com/0E7zL7Y.jpg")
+   }
+.rb-grid li:nth-child(5) { 
+  background: url("http://i.imgur.com/eKrSgqT.jpg")
+   }
+.rb-grid li:nth-child(6) { 
+  background: url("http://i.imgur.com/U5MvDd0.jpg")
+   }   
+
 .rb-grid li:nth-child(7) { background: #99CC99; }
 .rb-grid li:nth-child(8) { background: #669999; }
 .rb-grid li:nth-child(9) { background: #CC6699; }
 .rb-grid li:nth-child(10) { background: #339966; }
 .rb-grid li:nth-child(11) { background: #666699; }
+
+
+
+
 
 
 /*for smaller screens, boxes arent in grid*/
