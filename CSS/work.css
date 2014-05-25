@@ -1,85 +1,36 @@
-
-/*the unordered list is centered in the parent*/
-.rb-grid {
-  list-style: none;
-  text-align: center;
-  margin: 0 auto;
-}
-
-/*default span width is 24%. list items have a fluid with. */
-.rb-grid li {
-  width: 21%;
-  height: 15em;
-  margin: 0.5%;
-/*  background: #A8CABA;*/
-  color: blue;
-  display: block;
-  float: left;
-  padding: 1.6em;
-  cursor: pointer;
+ #pics{
   position: relative;
+  width: 90%;
+ }
+ 
+#hidden_pics{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+  overflow: scroll;
+
+
 }
 
-/*alternative span width*/
-.rb-grid li.rb-span-2 {
-  width: 39%;
-}
-
-.rb-grid li.rb-span-2 img {
-  width: 89%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-.rb-grid li.rb-span-2 img:hover{
+#hidden_pics:hover{
+  visibility: visible;
+  opacity: 1;
   width: 100%;
   height: 100%;
 }
 
-
-.rb-grid li.rb-span-3 {
-  width: 27%;
-}
-
-/*styling for title of art piece*/
-.rb-grid li h3 {
-  font-weight: 700;
-}
-
-.rb-grid li[class^="icon-"]:before,
-.rb-grid li[class*=" icon-"]:before {
-    font-size: 10em;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    line-height: 3;
-    opacity: 0.4;
-    text-align: right;
-    pointer-events: none;
-}
-
-#images{
-  width: 60%;
-}
-
-
-/*styling for images*/
-.rb-image {
-    width: 100%;
-    height: 100%;
-}
-
-
-
 /*color choices for boxes*/
-.rb-grid li:nth-child(1) { background: #5D4157; }
-.rb-grid li:nth-child(2) { background: #838689; }
-.rb-grid li:nth-child(3) { background: #A8CABA; }
-.rb-grid li:nth-child(4) { background: #CAD7B2; }
+#rb-grid li:nth-child(1) { 
+  border-style:solid;
+  border-color:#5D4157; 
+}
+#rb-grid li:nth-child(2) { background: #838689; }
+#rb-grid li:nth-child(3) { background: #A8CABA; }
+#rb-grid li:nth-child(4) { background: #CAD7B2; }
 .rb-grid li:nth-child(5) { background: #EBE3AA; }
 .rb-grid li:nth-child(6) { background: #5D4157; }
 .rb-grid li:nth-child(7) { background: #838689; }
