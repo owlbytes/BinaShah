@@ -1,0 +1,62 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 1%;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900; 
+  font-size: 50px;
+  color: #5D4157;
+  margin-bottom: 1%;
+  margin-top: 1%;
+
+}
+
+#bio{
+  margin: 1%;
+}
+
+#bio_photo img {
+  background-color: blue;
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#bio_text{
+  vertical-align: middle;
+}
+
+#bio_text p {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+
+
+#footie {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 3%;
+  background-color: rgba(202, 215, 178, 0.19)
+  
+}
+
+#footie a {
+  margin: 1%;
+  font-weight: 700; 
+  color: rgba(168, 202, 186, 1);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#footie a:hover{
+  color: rgba(168, 202, 186, 0.5)
+}

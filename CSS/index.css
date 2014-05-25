@@ -2,6 +2,7 @@
 body {
 background-image:url('https://news.uns.purdue.edu/images/+2009/horse-sculpture.jpg');
 background-repeat:no-repeat;
+font-family: 'Source Sans Pro', sans-serif;
 /*background-size:contain;
 *//*background-position:center;*/
 }
@@ -25,11 +26,12 @@ h3{
 }
 
 #center a{
-  margin: 2%;
+  margin: 1%;
+  font-weight: 700; 
+  color: rgba(168, 202, 186, 1);
   text-decoration: none;
-  color: rgba(163, 190, 234, 1);
 }
 
 #center a:hover{
-  color: rgba(163, 190, 234, 0.5);
+  color: rgba(168, 202, 186, 0.5)
 }
