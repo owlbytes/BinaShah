@@ -53,15 +53,10 @@ ul{
 }
 
 
-
-
-
-
 .rb-grid li h3 {
     font-size: 2.6em;
     font-weight: 100;
 }
-
 
 /*color choices for boxes*/
 .rb-grid li:nth-child(1) { background: #3399CC; }

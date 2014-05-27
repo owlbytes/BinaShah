@@ -1,0 +1,19 @@
+/*styling for all of Bina's works*/
+
+#images{
+  height: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#image1{
+  height: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  padding-left: 10px;
+
+}
