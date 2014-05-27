@@ -31,25 +31,31 @@ ul{
   height: auto;
 }
  
-.rb-grid li.rb-span-2 {
-    width: 27%;
+.rb-grid li.rb-span-small {
+    width: 18%;
 }
+
+.rb-grid li.rb-span-medium {
+    width: 26.8%;
+}
+
+.rb-grid li.rb-span-large {
+    width: 68%;
+}
+
+.rb-grid li.rb-span-xlarge {
+    width: 93%;
+}
+
 
 .rb-grid li.rb-span-3 {
     width: 30%;
 }
 
-.rb-grid li.rb-span-4 {
-    width: 40%;
-}
 
-.rb-grid li.rb-span-5 {
-    width: 93%;
-}
 
-.rb-grid li.rb-span-6 {
-    width: 69%;
-}
+
+
 
 .rb-grid li h3 {
     font-size: 2.6em;
