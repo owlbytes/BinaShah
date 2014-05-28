@@ -1,19 +1,19 @@
 
 body {
-background-image:url('https://news.uns.purdue.edu/images/+2009/horse-sculpture.jpg');
+background-image:url('http://i.imgur.com/RhY7XMf.jpg');
 background-repeat:no-repeat;
 font-family: 'Source Sans Pro', sans-serif;
-/*background-size:contain;
-*//*background-position:center;*/
+/*background-size:contain;*/
+background-position:center;
 }
 
 h1{
-  color: #606060;
+  color: #ffffff;
   text-align: center;
 }
 
 h3{
-  color: #3C3C3C;
+  color: #ffffff;
   text-align: center;
   font-style:italic;
 }
@@ -28,10 +28,10 @@ h3{
 #center a{
   margin: 1%;
   font-weight: 700; 
-  color: rgba(168, 202, 186, 1);
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
 }
 
 #center a:hover{
-  color: rgba(168, 202, 186, 0.5)
+  color: rgba(255, 255, 255, 0.5)
 }

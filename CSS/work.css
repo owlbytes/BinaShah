@@ -33,14 +33,18 @@ ul{
  
 .rb-grid li.rb-span-small {
     width: 18%;
+    background: #002f2f;
 }
 
 .rb-grid li.rb-span-medium {
     width: 26.8%;
+    background: #105f5f;
 }
 
 .rb-grid li.rb-span-large {
     width: 68%;
+    background: #488a67;
+    
 }
 
 .rb-grid li.rb-span-xlarge {
@@ -59,22 +63,24 @@ ul{
 }
 
 /*color choices for boxes*/
-.rb-grid li:nth-child(1) { background: #3399CC; }
+.rb-grid li:nth-child(1) { 
+  
+}
 
 .rb-grid li:nth-child(2) { 
-  background: url("http://i.imgur.com/WYlmNV7.jpg")
+  
    }
 .rb-grid li:nth-child(3) { 
-  background: url("http://i.imgur.com/s7AhgKK.jpg")
+  background: #99CC99;
    }
 .rb-grid li:nth-child(4) { 
-  background: url("http://i.imgur.com/0E7zL7Y.jpg")
+  background: #99CC99;
    }
 .rb-grid li:nth-child(5) { 
-  background: url("http://i.imgur.com/eKrSgqT.jpg")
+  background: #99CC99;
    }
 .rb-grid li:nth-child(6) { 
-  background: url("http://i.imgur.com/U5MvDd0.jpg")
+  background: #99CC99;
    }   
 
 .rb-grid li:nth-child(7) { background: #99CC99; }
@@ -82,7 +88,6 @@ ul{
 .rb-grid li:nth-child(9) { background: #CC6699; }
 .rb-grid li:nth-child(10) { background: #339966; }
 .rb-grid li:nth-child(11) { background: #666699; }
-
 
 
 
