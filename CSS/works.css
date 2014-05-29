@@ -8,6 +8,14 @@
   text-align: center;
 }
 
+#images2{
+  height: 52%;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
 #image1{
   height: auto;
   width: 100%;
