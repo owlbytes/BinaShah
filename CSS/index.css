@@ -1,11 +1,14 @@
 
 body {
 background-image:url('http://i.imgur.com/RhY7XMf.jpg');
+background-image:url('http://i.imgur.com/JUhXm5D.jpg');
+
 background-repeat:no-repeat;
 font-family: 'Source Sans Pro', sans-serif;
 /*background-size:contain;*/
 background-position:center;
 }
+
 
 h1{
   color: #ffffff;

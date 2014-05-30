@@ -33,28 +33,29 @@ ul{
  
 .rb-grid li.rb-span-small {
     width: 18%;
-    background: #002f2f;
+    background: #E57370;
 }
 
 .rb-grid li.rb-span-medium {
     width: 26.8%;
-    background: #488a67;
+    background: #E54A46;
     
 }
 
 .rb-grid li.rb-span-mid2 {
     width: 31%;
-    background: #488a67;  
+    background: #98312F;  
 }
 
 .rb-grid li.rb-span-mid {
     width: 44%;
-    background: #488a67;  
+    background: #840805;  
 }
 
 .rb-grid li.rb-span-large {
     width: 68%;
-    background: #488a67;
+    background: #CB140F;
+    
     
 }
 
@@ -72,35 +73,6 @@ ul{
     font-size: 2.6em;
     font-weight: 100;
 }
-
-/*color choices for boxes*/
-.rb-grid li:nth-child(1) { 
-  
-}
-
-.rb-grid li:nth-child(2) { 
-  
-   }
-.rb-grid li:nth-child(3) { 
-  background: #99CC99;
-   }
-.rb-grid li:nth-child(4) { 
-  background: #99CC99;
-   }
-.rb-grid li:nth-child(5) { 
-  background: #99CC99;
-   }
-.rb-grid li:nth-child(6) { 
-  background: #99CC99;
-   }   
-
-.rb-grid li:nth-child(7) { background: #99CC99; }
-.rb-grid li:nth-child(8) { background: #669999; }
-.rb-grid li:nth-child(9) { background: #CC6699; }
-.rb-grid li:nth-child(10) { background: #339966; }
-.rb-grid li:nth-child(11) { background: #666699; }
-
-
 
 
 

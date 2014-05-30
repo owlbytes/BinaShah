@@ -8,7 +8,7 @@ h1 {
   text-align: center;
   font-weight: 900; 
   font-size: 50px;
-  color: #a02529;
+  color: #cb130f;
   margin-bottom: 1%;
   margin-top: 1%;
 
@@ -45,18 +45,18 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   padding: 3%;
-  background-color: rgba(185,184,176, 0.19)
+  background-color: rgba(146, 137, 144, 0.20);
   
 }
 
 #footie a {
   margin: 1%;
   font-weight: 700; 
-  color: rgba(160, 37, 41, 1);
+  color: rgba(203,19,15,1);
   text-decoration: none;
   font-size: 16px;
 }
 
 #footie a:hover{
-  color: rgba(160, 37, 41, 0.5)
+  color: rgba(203,19,15,0.5);
 }
