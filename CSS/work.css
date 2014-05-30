@@ -38,7 +38,18 @@ ul{
 
 .rb-grid li.rb-span-medium {
     width: 26.8%;
-    background: #105f5f;
+    background: #488a67;
+    
+}
+
+.rb-grid li.rb-span-mid2 {
+    width: 31%;
+    background: #488a67;  
+}
+
+.rb-grid li.rb-span-mid {
+    width: 44%;
+    background: #488a67;  
 }
 
 .rb-grid li.rb-span-large {
