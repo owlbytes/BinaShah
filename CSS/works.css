@@ -1,4 +1,18 @@
 /*styling for all of Bina's works*/
+#yellow{
+  background-color: yellow;
+  height: 20px;
+}
+
+#red {
+  background-color: red;
+  height: 20px;
+}
+
+#blue{
+  background-color: blue;
+  height: 20px;
+}
 
 #images{
   height: auto;
