@@ -1,15 +1,18 @@
 a{
   text-decoration: none;
+  padding: 10px;
 }
 #GridLinks{
   text-align: center;
   color: #ffffff;
-  
+  font-size: 30px;
 }
 
 #color{
   margin: 0px;
   padding: 0px;
+  margin-left: auto;
+  margin-right: auto; 
 }
 #DarkRed{
   background-color: rgba(203,19,15,1);
