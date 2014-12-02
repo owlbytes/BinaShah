@@ -40,10 +40,11 @@ h1 {
 
 
 #footie {
+  height: 4em;
+  padding-top: 2em;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
-/*  padding: 3%;*/
   background-color: rgba(146, 137, 144, 0.20);
   
 }
