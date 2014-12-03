@@ -1,6 +1,12 @@
 /*styling for all of Bina's works*/
 
 
+#thumbs{
+  height: 300px;
+  width: 300px;
+}
+
+/*
 #images{
   height: auto;
   width: 100%;
@@ -58,4 +64,4 @@
   margin-left: auto;
   text-align: center;
 }
-
+*/
