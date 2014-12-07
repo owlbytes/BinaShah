@@ -12,9 +12,14 @@
   margin-left: auto;
 }
 
-#full{
+#portarit_full{
+  width: 500px;
   height: auto;
-  width: 100%;
+}
+
+#landscape_full{
+  width: 800px;
+  height: auto;
 }
 
 /*
