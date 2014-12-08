@@ -1,17 +1,9 @@
 body {
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0, #FFFFFF),
-    color-stop(0.73, #FAD5D5),
-    color-stop(1, #EDA8A8)
-  );
-  background-image: -o-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -moz-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -webkit-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -ms-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: linear-gradient(to right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+  background-image:url('http://i.imgur.com/MsKY9BO.jpg');
+  background-repeat:no-repeat;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*background-size:contain;*/
+  background-position:center;
 }
 
 h1 {
