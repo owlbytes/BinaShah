@@ -1,7 +1,17 @@
 body {
-  background-color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
-  margin: 1%;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    right top,
+    color-stop(0, #FFFFFF),
+    color-stop(0.73, #FAD5D5),
+    color-stop(1, #EDA8A8)
+  );
+  background-image: -o-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+  background-image: -moz-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+  background-image: -webkit-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+  background-image: -ms-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+  background-image: linear-gradient(to right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
 }
 
 h1 {
