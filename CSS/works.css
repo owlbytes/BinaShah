@@ -1,33 +1,5 @@
 /*styling for all of Bina's works*/
 
-#page{
-background-image: -webkit-gradient(
-  linear,
-  left top,
-  left bottom,
-  color-stop(0, #CC120F),
-  color-stop(0, #FFFFFF),
-  color-stop(1, #E66361),
-  color-stop(1, #EDA8A8),
-  color-stop(1, #FAD5D5)
-);
-background-image: -o-linear-gradient(bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-background-image: -moz-linear-gradient(bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-background-image: -webkit-linear-gradient(bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-background-image: -ms-linear-gradient(bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-background-image: linear-gradient(to bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-background-image: linear-gradient(to bottom, #CC120F 0%, #FFFFFF 0%, #E66361 100%, #EDA8A8 100%, #FAD5D5 100%);
-
-}
-
-body{
-}
-
-
-
-#gridrow{
-/*  text-align: center;*/
-}
 #thumbs{
   height: 200px;
   width: 200px;
@@ -46,63 +18,3 @@ body{
   width: 800px;
   height: auto;
 }
-
-/*
-#images{
-  height: auto;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-#images2{
-  height: 52%;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-#images3{
-  height: 51%;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-#images4{
-  height: 53%;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-#images5{
-  height: 52%;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-
-#image1{
-  height: auto;
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  padding-left: 10px;
-
-}
-
-#image2{
-  height: 45%;
-  width: auto;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-}
-*/

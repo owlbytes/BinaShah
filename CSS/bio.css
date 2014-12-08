@@ -1,9 +1,12 @@
-body {
-  background-image:url('http://i.imgur.com/MsKY9BO.jpg');
+body{
   background-repeat:no-repeat;
+  background-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
   /*background-size:contain;*/
   background-position:center;
+  background-image:url('http://i.imgur.com/MsKY9BO.jpg');
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
@@ -32,6 +35,9 @@ h1 {
 
 #bio_text{
   vertical-align: middle;
+  background-color: rgba(100, 100, 100, 0.5);
+  color: #ffffff;
+
 }
 
 #bio_text p {

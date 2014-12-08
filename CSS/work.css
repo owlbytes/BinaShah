@@ -1,4 +1,4 @@
-body{
+/*body{
   background-image: -webkit-gradient(
     linear,
     left bottom,
@@ -12,8 +12,9 @@ body{
   background-image: -webkit-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
   background-image: -ms-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
   background-image: linear-gradient(to right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  
 }
+*/
+
 #box{
   margin-bottom: 3em;
 }
