@@ -1,19 +1,11 @@
-/*body{
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    right top,
-    color-stop(0, #FFFFFF),
-    color-stop(0.73, #FAD5D5),
-    color-stop(1, #EDA8A8)
-  );
-  background-image: -o-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -moz-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -webkit-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: -ms-linear-gradient(right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
-  background-image: linear-gradient(to right top, #FFFFFF 0%, #FAD5D5 73%, #EDA8A8 100%);
+body{
+  background-repeat:no-repeat;
+  background-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+/*  background-size:contain;*/
+  background-position:center;
+  background-image:url('http://i.imgur.com/HmpnxbB.jpg');
 }
-*/
 
 #box{
   margin-bottom: 3em;
@@ -46,14 +38,14 @@ a{
 }
 
 #MediumRed {
-  background-color: rgba(203,19,15,0.6);
+  background-color: rgba(203,19,15,0.8);
   height: 15em;
   margin: 0px;
   padding: 0px;
 }
 
 #LightRed{
-  background-color: rgba(203,19,15,0.3);
+  background-color: rgba(203,19,15,0.8);
   height: 15em;
   margin: 0px;
   padding: 0px;
