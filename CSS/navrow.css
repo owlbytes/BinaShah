@@ -7,12 +7,17 @@
   color: #ffffff;
   float: right;
   font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: center;
 }
 
 #navtitle{
   color: #ffffff;
   float: left;
   font-size: 30px;
+  text-decoration: none;
+  vertical-align: center;
 }
 
 #navlinksbold{
@@ -20,6 +25,8 @@
   text-decoration: underline;
   float: right;
   font-size: 25px;
+  padding: 10px;
+  vertical-align: center;
 }
 
 
