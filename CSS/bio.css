@@ -9,18 +9,10 @@ body{
   padding: 0px;
 }
 
-h1 {
-  text-align: center;
-  font-weight: 900; 
-  font-size: 50px;
-  color: #cb130f;
-  margin-bottom: 1%;
-  margin-top: 1%;
-  
-}
 
 #bio{
   margin: 1%;
+  margin-top: 3em;
 }
 
 #bio_photo img {
@@ -35,8 +27,8 @@ h1 {
 
 #bio_text{
   vertical-align: middle;
-  background-color: rgba(100, 100, 100, 0.5);
-  color: #ffffff;
+  background-color: rgba(230,230,232, 0.5);
+  color: #29292f;
 
 }
 
@@ -45,28 +37,7 @@ h1 {
   margin-bottom: 1%;
   font-size: 20px;
   font-family: 'Source Sans Pro', sans-serif;
+  padding: 0.3em;
 }
 
 
-
-#footie {
-  height: 4em;
-  padding-top: 2em;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: rgba(146, 137, 144, 0.20);
-  
-}
-
-#footie a {
-  margin: 1%;
-  font-weight: 700; 
-  color: rgba(203,19,15,1);
-  text-decoration: none;
-  font-size: 16px;
-}
-
-#footie a:hover{
-  color: rgba(203,19,15,0.5);
-}
