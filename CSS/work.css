@@ -2,7 +2,7 @@ body{
   background-repeat:no-repeat;
   background-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
-  background-size:contain;
+  background-size: cover;
   background-position:center;
   background-image:url('http://i.imgur.com/54LFLnQ.jpg');
   margin: 0px;

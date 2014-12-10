@@ -5,7 +5,7 @@ background-image:url('http://i.imgur.com/JUhXm5D.jpg');
 
 background-repeat:no-repeat;
 font-family: 'Source Sans Pro', sans-serif;
-/*background-size:contain;*/
+background-size:cover;
 background-position:center;
 }
 
