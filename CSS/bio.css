@@ -4,7 +4,7 @@ body{
   font-family: 'Source Sans Pro', sans-serif;
   background-size:cover;
   background-position:center;
-  background-image:url('http://i.imgur.com/9o2gFRO.jpg');
+  background-image: url(../Images/Backgrounds/bio.jpg);
   margin: 0px;
   padding: 0px;
 }
