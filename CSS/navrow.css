@@ -1,12 +1,10 @@
 
 #nav{
   padding: 1em;
-  background-color: yellow;
 }
 
 #navlinks{
   color: #ffffff;
-  color: red;
   float: right;
   font-size: 20px;
   padding: 10px;
@@ -17,7 +15,6 @@
 #navtitle{
   color: #ffffff;
   float: left;
-  color: red;
   font-size: 30px;
   text-decoration: none;
   vertical-align: center;
@@ -25,7 +22,6 @@
 
 #navlinksbold{
   color: #ffffff;
-  color: red;
   text-decoration: underline;
   float: right;
   font-size: 25px;
