@@ -1,20 +1,8 @@
 /*styling for all of Bina's works*/
 
-.thumbs{
-  height: 200px;
-  width: 200px;
-  background-color: yellow;
+.workstitle{
+  font-size: 50px;
+  font-style: bold;
   text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-#portarit_full{
-  width: 500px;
-  height: auto;
-}
-
-#landscape_full{
-  width: 800px;
-  height: auto;
+  padding-bottom: 20px;
 }
