@@ -19,22 +19,21 @@
 
     <script type="text/javascript">
       $(document).ready(function() {
-          $(".fancybox").fancybox();
+          $("#single_1").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
       });
     </script>
 
   </head>
-<a class="fancybox" rel="group" href="fancybox/source/300.gif"><img src="fancybox/source/300.gif" alt="" /></a>
 
-Images/Blue/Blues_1.jpg
-<img src="fancybox/source/300.gif">
-
-<a class="fancybox" rel="group" href="fancybox/source/fancybox_overlay.png"><img src="fancybox_overlay.png" alt="" /></a>
-
-<a id="single_1" href="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_b.jpg" title="Blue Head">
-  <img src="http://farm4.staticflickr.com/3712/9032543579_1217e6566b_m.jpg" alt="" />
-</a>
-<a id="image" href="fancybox/source/300.gif"><img src="fancybox/source/300.gif" alt=""/></a>
+<!--   <a id="single_1" href="POPUPIMAGE" title="Singapore from the air (Andrew Tan 2011)">
+  <img src="THUMBIMAGE" alt="" />
+  </a> -->
 
   <body>
     <div class="container">
@@ -43,12 +42,20 @@ Images/Blue/Blues_1.jpg
         <br>
         <div class="row">
           <div class="one-third column alpha">
-
+            <a id="single_1" href="Images/Blue/Blues_1.jpg">
+            <img src="Images/Blue/Blues_1.jpg" alt="" class="thumbs" />
+            </a>
           </div>
-          <div class="one-third column alpha">
-            <a href="#popupPhotoPortrait" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-transition="fade"><img src="Images/Blue/Blues_1.jpg" id="thumbs"></a>
-            <div data-role="popup" id="popupPhotoPortrait" class="photopopup" data-overlay-theme="a" data-corners="false" data-tolerance="30,15">
-                <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a><img src="Images/Blue/Blues_1.jpg" alt="Photo portrait" id="portarit_full">
+          <div class="one-third column omega">
+            <a id="single_1" href="Images/Blue/Blues_2.jpg">
+            <img src="Images/Blue/Blues_2.jpg" alt="" class="thumbs" />
+            </a>
+          </div>
+          <div class="one-third column omega">
+            <a id="single_1" href="Images/Blue/Blues_3.jpg">
+            <img src="Images/Blue/Blues_3.jpg" alt="" class="thumbs" />
+            </a>
+          </div>
         </div> <!-- end of row div -->          
       </div><!-- end of 16 div -->
     </div> <!-- end of container div -->
