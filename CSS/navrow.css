@@ -1,0 +1,58 @@
+
+#nav{
+  padding: 1em;
+}
+
+#navlinks{
+  color: #ffffff;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+#navtitle{
+  color: #ffffff;
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+#navlinksbold{
+  color: #ffffff;
+  text-decoration: underline;
+  float: right;
+  font-size: 25px;
+  padding: 10px;
+  vertical-align: center;
+}
+
+/*for things with white backgrounds*/
+#navlinksblack{
+  color: #000000;
+  float: right;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+#navtitleblack{
+  color: #000000;
+  float: left;
+  font-size: 30px;
+  text-decoration: none;
+  vertical-align: center;
+}
+
+#navlinksboldblack{
+  color: #000000;
+  text-decoration: underline;
+  float: right;
+  font-size: 25px;
+  padding: 10px;
+  vertical-align: center;
+}
+

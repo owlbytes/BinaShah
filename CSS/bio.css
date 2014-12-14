@@ -1,0 +1,43 @@
+body{
+  background-repeat:no-repeat;
+  background-size: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-size:cover;
+  background-position:center;
+  background-image: url(../Images/Backgrounds/bio.jpg);
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#bio{
+  margin: 1%;
+  margin-top: 3em;
+}
+
+#bio_photo img {
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+#bio_text{
+  vertical-align: middle;
+  background-color: rgba(230,230,232, 0.5);
+  color: #29292f;
+
+}
+
+#bio_text p {
+  margin-top: 2%;
+  margin-bottom: 1%;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 0.3em;
+}
+
+
