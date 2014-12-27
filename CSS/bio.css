@@ -17,7 +17,7 @@ body{
 
 #bio_photo img {
   width: 100%;
-  height: auto;
+  height: 415px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -26,6 +26,7 @@ body{
 
 
 #bio_text{
+  height: 415px;
   vertical-align: middle;
   background-color: rgba(230,230,232, 0.5);
   color: #29292f;
