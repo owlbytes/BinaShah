@@ -28,8 +28,7 @@
 #bio_text{
   height: 455px;
   vertical-align: middle;
-  background-color: rgba(68, 204, 255, 0.10);
-  color: #29292f;
+  color: #222468;
 }
 
 #bio_text p {
