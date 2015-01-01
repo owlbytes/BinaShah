@@ -1,4 +1,4 @@
-body{
+/*body{
   background-repeat:no-repeat;
   background-size: 100%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -9,7 +9,7 @@ body{
   padding: 0px;
 }
 
-
+*/
 #bio{
   margin: 1%;
   margin-top: 3em;
@@ -17,7 +17,7 @@ body{
 
 #bio_photo img {
   width: 100%;
-  height: 415px;
+  height: 455px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -26,11 +26,10 @@ body{
 
 
 #bio_text{
-  height: 415px;
+  height: 455px;
   vertical-align: middle;
-  background-color: rgba(230,230,232, 0.5);
+  background-color: rgba(68, 204, 255, 0.10);
   color: #29292f;
-
 }
 
 #bio_text p {
