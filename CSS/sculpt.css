@@ -1,0 +1,29 @@
+a{
+  text-decoration: none;
+}
+
+.image{
+  text-align: center;
+}
+
+.links{
+  text-align: center; 
+  margin-top: 10px;
+}
+
+.link{
+  background-color: #0342e1;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.polaroid{
+  opacity: 1;
+}
+
+.polaroid:hover{
+  opacity: 0.5;
+}

@@ -26,4 +26,10 @@
   padding: 0.3em;
 }
 
-
+.test{
+  background-color: yellow;
+  width: 400px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
