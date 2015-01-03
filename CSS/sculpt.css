@@ -29,3 +29,9 @@ a{
 #main{
   margin-top: 40px;
 }
+
+.indexbanner{
+  height: 400px;
+  width: auto;
+  text-align: center;
+}
