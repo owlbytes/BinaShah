@@ -1,7 +1,6 @@
 .nav{
-  background-color: #44ccff;
-  background-color: #4b6681;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   padding: 1em;
   margin: 0px;
   width: 100%;
@@ -10,7 +9,7 @@
 }
 
 #navigationBarHome{
-  color: #ffffff;
+  color: #000000;
   font-size: 3em;
   text-decoration: none;
   opacity: 1;
@@ -21,7 +20,7 @@
 }
 
 #navigationBarlinks{
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   float: right;
   font-size: 1.5em;
