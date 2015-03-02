@@ -1,48 +1,74 @@
-<html>
-<head>
-  <title>Bina Shah</title>
-  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="favicons/favicon-194x194.png" sizes="194x194">
-  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="favicons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-  <link rel="stylesheet" type="text/css" href="CSS/base.css">
-  <link rel="stylesheet" type="text/css" href="CSS/layout.css">
-  <link rel="stylesheet" type="text/css" href="CSS/skeleton.css">
-  <link rel="stylesheet" type="text/css" href="CSS/bio.css">
-  <link rel="stylesheet" type="text/css" href="CSS/navigation.css">
-  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,400italic,900italic' rel='stylesheet' type='text/css'>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-    <div class="nav">
-    <div class="container">
-      <div class="sixteen columns">
-        <div class="eight columns alpha">
-          <a href="index.html" id="navigationBarHome">Bina Shah</a>         
-        </div>
-        <div class="eight columns omega">
-          <a id= "navigationBarlinks" href="mailto:bsshah4@gmail.com?Subject=Website%20Referral" target="_top">Contact </a>
-          <a id= "navigationBarlinks" href="canvass.html">Canvass</a>
-          <a id= "navigationBarlinks" href="sculpt.html">Sculpture</a>
-          <a id= "navigationBarlinks" href="bio.html">Biography</a>
-        </div>
-      </div> <!--   end of 16 columns div -->
-    </div> <!--   end of container div -->
-  </div> <!--   end of "nav" div -->
+<html id="page">
+  <head>
+    <title>Bina Shah</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" type="text/css" href="CSS/base.css">
+    <link rel="stylesheet" type="text/css" href="CSS/layout.css">
+    <link rel="stylesheet" type="text/css" href="CSS/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="CSS/navigation.css">
+    <link rel="stylesheet" type="text/css" href="CSS/works.css">
+    <link rel="stylesheet" type="text/css" href="CSS/sculpt.css">
+    <link rel="stylesheet" type="text/css" href="CSS/nav.css">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,900,400italic,900italic' rel='stylesheet' type='text/css'>
+
+<!--     responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+
+    <!-- fancybox -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+    <link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+    <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $("#single_1").fancybox({
+                helpers: {
+                    title : {
+                        type : 'float'
+                    }
+                }
+            });
+      });
+    </script>
+
+
+
+  </head>
+    <body>
+      <nav>  
+        <ul>  
+          <li><a href="index.html"><img src="Images/60.png"></a></li>
+          <li><a href="bio.html">Biography</a></li>   
+          <li><a href="sculpt.html">Sculpture</a></li>               
+          <li><a href="canvass.html">Canvass</a></li> 
+          <li><a href="mailto:bsshah4@gmail.com?Subject=Website%20Referral" target="_top">Contact</a></li> 
+        </ul>  
+      </nav>  
+
+  
   <div class="container">
     <div class="main">
       <div class="sixteen columns" id="bio">
