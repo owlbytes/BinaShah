@@ -1,0 +1,72 @@
+
+nav {  
+    height: 60px;
+    line-height: 60px;  
+    font-size: 20px;
+    width: 100%;  
+    background: #ffffff;  
+    font-weight: bold;  
+    text-align: center;
+    position: relative; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    height:auto;
+    *zoom: 100%;  
+}  
+
+
+nav li {  
+    display: inline;  
+}  
+
+nav a {  
+    color: #bf1e2d;  
+    display: inline-block;  
+    width: 200px;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+}  
+
+nav a:hover, nav a:active {  
+  zoom: 110%;
+}  
+
+      
+@media screen and (max-width: 600px) {  
+  nav ul {  
+    width: 100%;  
+    display: block;  
+  }  
+
+  nav a {  
+    text-align: center;  
+    width: 100%;  
+  }  
+}  
+
+@media only screen and (max-width : 480px)  {  
+  nav ul {  
+    width: 100%;  
+    display: block;  
+  }  
+
+  nav a {  
+    text-align: center;  
+    width: 100%;  
+  }  
+}  
+
+@media only screen and (max-width : 320px) {  
+  nav ul {  
+    width: 100%;  
+    display: block;  
+  }  
+
+  nav a {  
+    text-align: center;  
+    width: 100%;  
+  }  
+}  
+
+ 
