@@ -2,7 +2,7 @@
 nav {  
     height: 60px;
     line-height: 60px;  
-    font-size: 20px;
+    font-size: 16px;
     width: 100%;  
     background: #ffffff;  
     font-weight: bold;  
@@ -20,7 +20,7 @@ nav li {
 }  
 
 nav a {  
-    color: #bf1e2d;  
+    color: #000000;
     display: inline-block;  
     width: 200px;  
     text-align: center;  
