@@ -19,11 +19,11 @@ h3{
 #center a{
   margin: 1%;
   font-weight: 700; 
-  color: rgba(255, 255, 255, 1);
   text-decoration: none;
+  color: #bf1e2d;
   display: inline;
 }
 
 #center a:hover{
-  color: rgba(255, 255, 255, 0.5)
+  color: #bf1e2d;
 }

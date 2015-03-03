@@ -33,3 +33,8 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+#bio a {
+  text-decoration: none;
+  color: #bf1e2d;
+}
